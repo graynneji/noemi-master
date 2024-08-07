@@ -1,0 +1,25 @@
+.educationText{
+    background-color: #f3f7f2;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    margin-top: -1rem;
+}
+@media (max-width: 569px){
+    .educationText{
+        font-size: 1.5rem;
+    }
+}
+/* .guidance{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #344a67;
+    color: #ffffff;
+    top: 76px;
+    padding-left: 10rem;
+    border-radius: 5rem;
+    padding-right: 5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+} */

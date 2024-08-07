@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    position: relative;
+    background-color: #f3f7f2;
+    z-index: 107;
+    position: fixed;
+    width: 100vw;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+    color: #344a67;
+}
+.imges{
+filter: hue-rotate(210deg) saturate(2.5) brightness(0.9) contrast(1.2);
+
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}
+.mobileMenu{
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 624px){
+    .mobileMenu{
+        display: flex;
+       font-size: 2.5rem;
+       color: #344a67;
+    }
+    .links{
+        display: none;
+    }
+}

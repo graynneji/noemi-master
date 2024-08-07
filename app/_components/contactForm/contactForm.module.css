@@ -1,0 +1,49 @@
+.contactContainer{
+    display: flex;
+    gap: 2.5rem;
+    background-color: #344a67;
+overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin-top: -1rem;
+    /* height: 100vh; */
+}
+@media (max-width: 625.6px){
+    .contactContainer{
+        flex-direction: column;
+    }
+}
+.hOne{
+    color: #ffffff;
+}
+.topInput{
+    display: flex;
+    gap: 1rem;
+   
+}
+.formInput{
+    border-radius: 5rem;
+    border: none;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.area{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+.btn{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #bfcb94;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+}

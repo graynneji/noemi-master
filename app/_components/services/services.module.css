@@ -1,0 +1,118 @@
+.servicesContainer{
+    padding: 6rem;
+    padding-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+/* .hOneContainer{
+    position: absolute;
+    top: -35rem;
+    z-index: 1000;
+    color: white;
+    width: 36rem;
+
+    height: 11rem;
+    max-width: 100%;
+    font-size: 4.5rem;
+    line-height: 1;
+} */
+/* .hOneContainer{
+    position: absolute;
+    top: -35rem;
+    z-index: 99999;
+    color: white;
+    left: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+    line-height: 1;
+    padding: 0rem 7rem 0rem 7rem ;
+}
+
+.hhOne{
+    font-size: 4.5rem;
+    width: 36rem;
+    height: 11rem;
+    max-width: 100%;
+}
+.hhThree{
+    font-size: 2rem;
+}
+
+@media (max-width: 996.8px){
+
+    .hhOne{
+        font-size: 3.6rem;
+        width: 36rem;
+       
+        height: 11rem;
+        max-width: 100%;
+    }
+    .hhThree{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 823.8px){
+    .hOneContainer{
+        flex-direction: column;
+        gap: 9rem;
+        padding: 0rem 3rem 0rem 3rem ;
+    }
+} */
+.servicesParah{
+font-size: 2.4rem;
+}
+@media (max-width: 600px){
+   
+    .servicesParah{
+        
+     font-size: 2rem;
+     
+    }
+}
+@media (max-width: 450px){
+    .servicesContainer{
+        padding: 4rem;
+    }
+    .servicesParah{
+     font-size: 1.5rem;
+    }
+ }
+.colImage{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap: 5rem;
+}
+@media (max-width: 799.2px){
+    .colImage{
+    
+        grid-template-columns: auto;
+    }
+
+ }
+.imgs{
+    border-radius: 30rem;
+   
+    
+}
+
+@media (max-width: 812px){
+   
+    .hOneContainer{
+        width: 30rem;
+     font-size: 3.5rem;
+     top: -32rem;
+    }
+}
+
+.servicesBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}  

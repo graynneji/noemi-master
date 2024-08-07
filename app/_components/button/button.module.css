@@ -1,0 +1,29 @@
+.btn{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #bfcb94;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.send{
+    width: 8rem;
+}
+.services{
+    width: 25rem;
+    max-width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    color: #344a67;
+}
+.offer{
+    width: 15rem;
+    max-width: 100%;
+    height: 4rem;
+    border-radius: 5rem;
+    background-color: #344a67;
+}

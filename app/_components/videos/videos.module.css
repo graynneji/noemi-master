@@ -1,0 +1,20 @@
+.videoTop{
+    background-color: #ffffff;
+    height: 37vh;
+}
+.videoBottom{
+    background-color: #f3f7f2;
+    padding: 2rem 2rem 4rem 2rem;
+}
+.videoImage{
+    object-fit: cover;
+}
+.videoGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.hOneV{
+ 
+}

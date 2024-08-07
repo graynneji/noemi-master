@@ -1,0 +1,52 @@
+.tuthead{
+    background-color: #bfcb94;
+    height: 500px;
+    padding-left: 20rem;
+    padding-top: 20rem;
+    padding-right: 20rem;
+    display: flex;
+    gap: 5rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+/* .imgs{
+    border-radius: 30rem;
+    object-fit: cover;
+    position: relative;
+    
+} */
+.triangle {
+    width: 2rem; 
+    height: 0; 
+    border-top: 270px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 210px solid #344a67; 
+    /* z-index: 100; */
+    position: absolute;
+    bottom: 1rem;
+    left: 15rem;
+   max-width: 100%;
+
+}
+.hOne{
+    color: #ffffff;
+    font-size: 5.6rem;
+    margin-left: -20rem;
+    /* position: absolute; */
+    z-index: 9999;
+    
+}
+
+.tutSpan{
+    /* padding: 4rem; */
+    /* position: absolute; */
+    /* left: 54rem; */
+    /* bottom: 40rem; */
+    width: 80%;
+    font-size: 1.5rem;
+}
+.flexing{
+   display: flex;
+   flex-direction: column;
+  /* justify-self: start; */
+}

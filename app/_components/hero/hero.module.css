@@ -1,0 +1,150 @@
+
+.heroContainer{
+
+ position: relative;
+ 
+
+}
+.guidance{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #344a67;
+    color: #ffffff;
+    bottom: -9px;
+    padding-left: 10rem;
+    border-radius: 5rem;
+    padding-right: 5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    z-index: 99;
+}
+@media (max-width: 571px){
+    .guidance{
+        padding-left: 5rem;
+        font-size: 1.5rem;
+        padding-right: 3rem;
+        bottom: -5px;
+    }
+   
+}
+.heroLogo{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.hOne{
+    position: absolute;
+/* text-align: center; */
+    bottom: 5rem;
+    left: 65px;
+    z-index: 100;
+    font-size: 4.6rem;
+    color: #ffffff;
+    top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.edu{
+    font-size: 4.6rem;
+    color: #ffffff;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+@media (max-width: 571px){
+    .edu{
+        font-size: 3.6rem;
+        
+    }
+   
+}
+.hOneContainer{
+    position: absolute;
+    display: flex;
+    z-index: 100;
+    bottom: 3.7em;
+    color: #ffffff;
+    width: 100%;
+    /* gap: 3rem; */
+    justify-content: space-between;
+    padding: 0rem 4rem 0rem 4rem ;
+  
+}
+.leave{
+    width: 28rem;
+
+    height: 11rem;
+    max-width: 100%;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.hThree{
+    margin-top: 6.8rem;
+}
+@media (max-width: 785.6px){
+    .leave{
+        width: 23rem;
+    
+        height: 11rem;
+        max-width: 100%;
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    .hThree{
+        margin-top: 6.8rem;
+        /* font-size: 1.5rem; */
+    }
+    .hOneContainer{
+        /* bottom: -5rem; */
+    }
+}
+@media (max-width: 725.6px){
+    
+    /* .hOneContainer{
+        bottom: 3rem;
+       flex-direction: column;
+       gap: 7rem;
+       height: 3rem;
+    }
+    .hThree{
+        margin-top: 0rem;
+      
+
+    } */
+     .hThree{
+          font-size: 1.5rem;
+     }
+}
+@media (max-width: 658px){
+    
+    .hOneContainer{
+        bottom: 13rem;
+       flex-direction: column;
+       gap: 7rem;
+       height: 3rem;
+    }
+    .hThree{
+        margin-top: 0rem;
+        font-size: 2rem;
+
+    }
+}
+@media (max-width: 452px){
+    
+  
+    .hThree{
+     
+        font-size: 1.5rem;
+
+    }
+}
+@media (max-width: 356px){
+    
+  
+    .hOneContainer{
+        padding: 0rem 2rem 0rem 2rem ;
+    }
+}

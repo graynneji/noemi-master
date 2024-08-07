@@ -1,0 +1,70 @@
+.aboutUs{
+background-color: #344a67;
+color: #ffffff;
+padding: 3rem 7rem 3rem 7rem;
+border-radius: 10rem;
+}
+.parahAbout{
+font-size: 2rem;
+text-align: left;
+}
+@media (max-width: 1228px){
+    .parahAbout{
+        font-size: 1.5rem;
+    
+             }
+}
+@media (max-width: 970.4px){
+    .parahAbout{
+        font-size: 1.3rem;
+    
+             }
+}
+
+@media (max-width: 625px){
+    .parahAbout{
+        font-size: 1.1rem;
+    
+             }
+}
+@media (max-width: 600px){
+  
+    .aboutUs{
+                 padding: 3rem 5rem 3rem 5rem;
+             
+                }
+}
+@media (max-width: 450px){
+    .parahAbout{
+        font-size: 1rem;
+    }
+  
+    
+}
+@media (max-width: 500px){
+    .aboutUs{
+        padding: 2rem 4rem 2rem 4rem;
+    
+       }
+  
+    
+}
+@media (max-width: 360px){
+    .aboutUs{
+        padding: 2rem 3rem 2rem 3rem;
+    
+       }
+  
+    
+}
+@media (max-width: 380px){
+    
+        .parahAbout{
+            font-size: .87rem;
+        
+                 }
+    
+    
+  
+    
+}

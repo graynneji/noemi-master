@@ -1,0 +1,24 @@
+.mobileNav{
+width: 60%;
+height: 100vh;
+position: fixed;
+top: 23px;
+z-index: 106;
+background-color: #f3f7f2;
+padding: 2rem;
+}
+.offDisplay{
+
+    display: none;
+}
+.links{
+    font-size: 2rem;
+    
+
+}
+.links:first-child{
+}
+.liLi{
+    margin-top: 3rem;
+
+}
